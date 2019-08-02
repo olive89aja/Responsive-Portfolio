@@ -254,3 +254,27 @@ input[type="submit"] {
         width: 100%;
     }
 }
+
+
+/*this animation changes the background color of each box heeader from blue to yellow for 5 seconds.
+Then the animation happens in reverse, from yellow to blue. Four changes in total */
+
+@keyframes colorchange {
+    from {
+        background-color: #4aaaa5;
+    }
+    to {
+        background-color: yellow;
+    }
+}
+
+
+/* Animation applied to this element */
+
+h3 {
+    background-color: #4aaaa5;
+    animation-name: colorchange;
+    animation-duration: 5s;
+    animation-iteration-count: 4;
+    animation-direction: alternate;
+}
