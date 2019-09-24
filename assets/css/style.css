@@ -178,6 +178,11 @@ h2 {
     border-bottom: 0;
 }
 
+h3.gitlinks {
+    width:100%;
+        
+}
+
 .auth-image {
     float: left;
     width: 200px;
@@ -279,3 +284,4 @@ h3 {
     animation-iteration-count: 4;
     animation-direction: alternate;
 }
+
