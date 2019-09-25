@@ -3,7 +3,7 @@ body {
     font-size: 18px;
     line-height: 34px;
     color: #777777;
-    background: url("../images/concrete_seamless.png");
+    background: #dae0f2;
 }
 
 * {
@@ -101,7 +101,7 @@ nav a:first-child {
     border-left: 0 none;
 }
 
-
+ 
 /* footer */
 
 footer {
@@ -112,7 +112,7 @@ footer {
     color: #cccccc;
     text-align: center;
     background: #666666;
-    border-top: 8px solid #4aaaa5;
+    border-top: 8px solid lightpink;
     height: 50px;
 }
 
@@ -179,10 +179,11 @@ h2 {
     border-bottom: 0;
 }
 
-/*h3.gitlinks {
+h3.gitlinks {
     width:100%;
-        
-}*/
+    font-weight: 200;
+    font-size: 15px;
+}
 
 .auth-image {
     float: left;
@@ -193,45 +194,6 @@ h2 {
 }
 
 
-/* contact page */
-
-#contact-form ul {
-    margin-bottom: 20px;
-}
-
-#contact-form li {
-    margin-bottom: 10px;
-}
-
-label,
-input[type="text"],
-input[type="email"],
-textarea {
-    display: block;
-    width: 100%;
-}
-
-input[type="text"],
-input[type="email"],
-textarea {
-    height: 35px;
-    padding: 0 10px;
-    font-size: 14px;
-    border: 1px solid #dddddd;
-}
-
-textarea {
-    height: 200px;
-}
-
-input[type="submit"] {
-    padding: 10px 30px;
-    font-size: 18px;
-    color: #ffffff;
-    cursor: pointer;
-    background: #4aaaa5;
-    border: 0 none;
-}
 
 @media screen and (max-width: 980px) {
     body {
