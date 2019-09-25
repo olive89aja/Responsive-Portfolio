@@ -155,6 +155,7 @@ h2 {
 
 .work:nth-child(even) {
     margin-right: 40px;
+    
 }
 
 .work img {
@@ -178,10 +179,10 @@ h2 {
     border-bottom: 0;
 }
 
-h3.gitlinks {
+/*h3.gitlinks {
     width:100%;
         
-}
+}*/
 
 .auth-image {
     float: left;
